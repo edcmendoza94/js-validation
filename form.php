@@ -32,7 +32,7 @@
             <div class="row">
                 <form action="results.php" method="post" id="payroll-form">
                     <div class="col-xs-12 form-group">
-                       <label for="emp-id">Employee Id</label>
+                       <label for="emp-id">Employee ID (must be 10 characters)</label>
                        <input type="text" name="emp-id" id="emp-id" class="form-control">
                        <div class="alert alert-danger">
                            <strong>Error: </strong><span id="emp-id-error"></span>
